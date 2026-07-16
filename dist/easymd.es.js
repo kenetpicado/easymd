@@ -8,6 +8,8 @@ var r = (e, t) => {
 function o(r, i) {
 	return n(), e("div", a, [...i[0] ||= [t("div", { class: "loading loading-spinner mx-auto" }, null, -1)]]);
 }
-var s = /*#__PURE__*/ r(i, [["render", o]]);
+var s = /*#__PURE__*/ r(i, [["render", o]]), c = { install: (e) => {
+	e.component("TheLoader", s);
+} };
 //#endregion
-export { s as TheLoader };
+export { s as TheLoader, c as default };
