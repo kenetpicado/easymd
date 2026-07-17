@@ -1,2 +1,2 @@
-import { default as HelloWorld } from './components/HelloWorld.vue';
-export { HelloWorld };
+import { default as TheLoader } from './components/TheLoader.vue';
+export { TheLoader };

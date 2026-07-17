@@ -1,10 +1,10 @@
 import type { App } from "vue";
-import HelloWorld from "./components/HelloWorld.vue";
+import TheLoader from "./components/TheLoader.vue";
 
 export default {
   install(app: App) {
-    app.component("HelloWorld", HelloWorld);
+    app.component("TheLoader", TheLoader);
   },
 };
 
-export { HelloWorld };
+export { TheLoader };

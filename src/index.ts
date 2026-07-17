@@ -1,3 +1,3 @@
-import HelloWorld from "./components/HelloWorld.vue";
+import TheLoader from "./components/TheLoader.vue";
 
-export { HelloWorld };
+export { TheLoader };
