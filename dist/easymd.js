@@ -108,6 +108,6 @@ var l = "/icons.svg", u = "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/
 			o[10] ||= n("section", { id: "spacer" }, null, -1)
 		], 64));
 	}
-}), j = A;
+});
 //#endregion
-export { A as HelloWorld, j as default };
+export { A as HelloWorld };
